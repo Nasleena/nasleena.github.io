@@ -108,11 +108,13 @@ p{
 @media only screen and (max-width: 961px) {
 
 .item { 
-  width: 45%;
+  	width: 45%;
+	margin:10px;
 }
 
 .item:nth-child(3n) {
-  width: 100%;
+  	width: 100%;
+	margin:10px;
   }
 }
 
@@ -120,6 +122,7 @@ p{
 @media only screen and (max-width: 320px) {
 
 .item { 
-  width: 100%;
+  	width: 100%;
+	margin:10px;
 }
 }
