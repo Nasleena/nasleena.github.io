@@ -16,8 +16,6 @@ h2{
 	flex-wrap:wrap;
 	justify-content:space-between;
 	margin:30px;
-
-	
 }
 .item{
 	width:370px;
@@ -25,26 +23,19 @@ h2{
 	background:#808080;
 	overflow:hidden;
 	border:2px solid #000;
-	
-		
 }
 
-
 p{
-	
 	font-family:helvetica;
 	color:#000;
 	margin-top:30px;
 	padding:15px;
 	word-break:break-all;
-	
-	
 }
-.head1{
+
+.head{
 	font-size:medium;
 	float:right; 
- 	background:#800000;
-	color:#fff;
 	padding:5px;
 	margin:0;
 	width:100px;
@@ -54,34 +45,19 @@ p{
 	border-width:0 0 2px 2px;
 	position:relative;
 }
+.head1{
+ 	background:#800000;
+	color:#fff;
+}
 
 .head2{
-	font-size:medium;
-	float:right;
  	background:#c71585;
 	color:#fff;
-	padding:5px;
-	margin:0;
-	width:100px;
-	text-align:center;
-	border:1px solid black;
-	border-color:black;
-	border-style:solid;
-	border-width:0 0 2px 2px;
 }
+
 .head3{
-	font-size:medium;
-	float:right;
- 	background:#4b0082;
+	background:#4b0082;
 	color:#fff;
-	padding:5px;
-	margin:0;
-	width:100px;
-	text-align:center;
-	border:1px solid black;
-	border-color:black;
-	border-style:solid;
-	border-width:0 0 2px 2px;
 }
 
 @media only screen and (max-width: 991px){
