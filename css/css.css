@@ -21,7 +21,7 @@ h2{
 	width:370px;
 	height:300px;
 	background:#f7ebe8;
-	overflow:hidden;
+	overflow:auto;
 	border:1px solid #000;
 }
 
