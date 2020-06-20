@@ -41,14 +41,14 @@ p{
 	
 }
 .head1{
-	font-size:large;
+	font-size:medium;
 	float:right; 
  	background:#800000;
 	color:#fff;
 	padding:5px;
 	margin:0;
 	width:100px;
-	text-align:centr;
+	text-align:center;
 	border-color:black;
 	border-style:solid;
 	border-width:0 0 2px 2px;
