@@ -43,8 +43,7 @@ p{
 	border-color:black;
 	border-style:solid;
 	border-width:0 0 1px 1px;
-	position:absolute;
-	top:0px;
+	position:relative;
 }
 .head1{
  	background:#753742;
