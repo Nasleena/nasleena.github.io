@@ -20,14 +20,14 @@ h2{
 .item{
 	width:370px;
 	height:140px;
-	background:#808080;
+	background:#87dfd6;
 	overflow:hidden;
 	border:2px solid #000;
 }
 
 p{
 	font-family:helvetica;
-	color:#000;
+	color:#086972;
 	margin-top:30px;
 	padding:15px;
 	word-break:break-all;
