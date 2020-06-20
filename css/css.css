@@ -56,6 +56,7 @@ p{
 }
 
 .head2{
+	font-size:medium;
 	float:right;
  	background:#c71585;
 	color:#fff;
@@ -69,6 +70,7 @@ p{
 	border-width:0 0 2px 2px;
 }
 .head3{
+	font-size:medium;
 	float:right;
  	background:#4b0082;
 	color:#fff;
