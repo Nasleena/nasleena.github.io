@@ -78,7 +78,7 @@ p{
 	border-style:solid;
 	border-width:0 0 2px 2px;
 }
-
+/*
 @media only screen and (max-width: 991px){
 .item{
 	width:45%;
@@ -102,5 +102,24 @@ p{
 .item{
 	width:30%;
 	margin:10px;
+}
+}
+*/
+@media only screen and (max-width: 961px) {
+
+.item { 
+  width: 45%;
+}
+
+.item:nth-child(3n) {
+  width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+
+.item { 
+  width: 100%;
 }
 }
