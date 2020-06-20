@@ -27,31 +27,7 @@ h2{
 		
 }
 
-@media only screen and (max-width: 991px){
-.item{
-	width:45%;
-	margin:10px;
-}
-.item:nth-child(3n){
 
-	width:100%;
-	
-}
-}
-@media only screen and (max-width:767px){
-.item{
-	width:100%;
-	margin:10px;
-}
-
-}
-
-@media  (min-width:991px) {
-.item{
-	width:30%;
-	margin:10px;
-}
-}
 p{
 	
 	font-family:helvetica;
@@ -103,4 +79,28 @@ p{
 	border-width:0 0 2px 2px;
 }
 
+@media only screen and (max-width: 991px){
+.item{
+	width:45%;
+	margin:10px;
+}
+.item:nth-child(3n){
 
+	width:100%;
+	
+}
+}
+@media only screen and (max-width:767px){
+.item{
+	width:100%;
+	margin:10px;
+}
+
+}
+
+@media  (min-width:991px) {
+.item{
+	width:30%;
+	margin:10px;
+}
+}
