@@ -21,8 +21,8 @@ h2{
 	width:370px;
 	height:140px;
 	background:#f7ebe8;
-	overflow:hidden;
-	border:2px solid #000;
+	overflow:auto;
+	border:1px solid #000;
 }
 
 p{
@@ -42,21 +42,21 @@ p{
 	text-align:center;
 	border-color:black;
 	border-style:solid;
-	border-width:0 0 2px 2px;
+	border-width:0 0 1px 1px;
 	position:relative;
 }
 .head1{
- 	background:#800000;
+ 	background:#086972;
 	color:#fff;
 }
 
 .head2{
- 	background:#c71585;
+ 	background:#111d5e;
 	color:#fff;
 }
 
 .head3{
-	background:#4b0082;
+	background:#184d47;
 	color:#fff;
 }
 
