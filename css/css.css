@@ -7,8 +7,8 @@ body{
 }
 h2{
 	text-align:center;
-	margin-top:50px;
-	margin-bottom:50px;
+	margin-top:25px;
+	margin-bottom:25px;
 }
 .container{
 	display:flex;
@@ -22,7 +22,7 @@ h2{
 	height:270px;
 	background:#f7ebe8;
 	overflow:auto;
-	border:1px solid #000;
+	border:1px solid #e0dcdc;
 }
 
 p{
@@ -40,7 +40,7 @@ p{
 	margin:0;
 	width:100px;
 	text-align:center;
-	border-color:black;
+	border-color:#e0dcdc;
 	border-style:solid;
 	border-width:0 0 1px 1px;
 	position:relative;
