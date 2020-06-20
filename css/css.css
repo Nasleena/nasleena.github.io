@@ -19,9 +19,9 @@ h2{
 }
 .item{
 	width:370px;
-	height:140px;
+	height:200px;
 	background:#f7ebe8;
-	overflow:auto;
+	overflow:hidden;
 	border:1px solid #000;
 }
 
@@ -43,7 +43,8 @@ p{
 	border-color:black;
 	border-style:solid;
 	border-width:0 0 1px 1px;
-	position:relative;
+	position:absolute;
+	top:0px;
 }
 .head1{
  	background:#086972;
