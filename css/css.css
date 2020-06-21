@@ -22,7 +22,7 @@ h2{
 	height:200px;
 	background:#f7ebe8;
 	overflow:hidden;
-	border:1px solid #e0dcdc;
+	border:1px solid #8d99ae;
 }
 
 p{
@@ -30,7 +30,8 @@ p{
 	color:black;
 	margin-top:30px;
 	padding:15px;
-	word-break:break-all;
+	text-aligh:justify;
+	word-break:break-word;
 }
 
 .head{
