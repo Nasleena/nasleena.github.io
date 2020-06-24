@@ -17,7 +17,7 @@ h2{
 	justify-content:space-between;
 	margin:30px;
 }
-.item{
+.myitem{
 	width:370px;
 	height:200px;
 	background:#f7ebe8;
@@ -34,7 +34,7 @@ p{
 	word-break:break-word;
 }
 
-.head{
+.myhead{
 	font-size:medium;
 	float:right; 
 	padding:5px;
