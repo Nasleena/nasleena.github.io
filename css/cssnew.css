@@ -18,7 +18,7 @@ h2{
 	margin:30px;
 }
 .myitem{
-	width:370px;
+	width:370px!important;
 	height:600px;
 	background:#f7ebe8;
 	overflow:hidden;
@@ -64,7 +64,7 @@ p{
 
 @media only screen and (max-width: @screen-md-min){
 	.myitem{
-		width:47%;
+		width:47%!important;
 		margin:10px;
 	}
 	.myitem:nth-child(3n){
@@ -73,14 +73,14 @@ p{
 }
 @media only screen and (max-width: @screen-sm-min){
 	.myitem{
-		width:100%;
+		width:100%!important;
 		margin:10px;
 	}
 }
 
 @media  (min-width: @screen-md-min) {
 	.myitem{
-		width:30%;
+		width:30%!important;
 		margin:10px;
 	}
 }
