@@ -35,8 +35,8 @@ p{
 	color:black;
 	margin-top:30px;
 	padding:15px;
-	text-aligh:justify!important;
-	word-break:break-word;
+    	text-align: justify;
+    	word-break: break-word;
 }
 
 .myhead{
