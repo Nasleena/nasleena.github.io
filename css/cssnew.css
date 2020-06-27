@@ -5,11 +5,13 @@
 body{
 	font-family:verdana;
 }
-h2{
+
+.myheading{
 	text-align:center;
 	margin-top:25px;
 	margin-bottom:25px;
 }
+
 .mycontainer{
 	display:flex;
 	flex-direction:row;
@@ -17,6 +19,7 @@ h2{
 	justify-content:space-between;
 	margin:30px;
 }
+
 .myitem{
 	width:370px!important;
 	height:600px;
