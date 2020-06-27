@@ -23,8 +23,8 @@ body{
 }
 
 .myitem{
-	width:370px!important;
-	height:600px;
+	width:90%!important;
+	height:900px;
 	background:#f7ebe8;
 	overflow:hidden;
 	border:1px solid #8d99ae;
@@ -54,37 +54,4 @@ p{
 .head1{
  	background:#2a9d8f;
 	color:#fff;
-}
-
-.head2{
- 	background:#457b9d;
-	color:#fff;
-}
-
-.head3{
-	background:#8a5a44;
-	color:#fff;
-}
-
-@media only screen and (max-width: 991px){
-	.myitem{
-		width:47%;
-		margin:10px;
-	}
-	.myitem:nth-child(3n){
-		width:100%;
-	}
-}
-@media only screen and (max-width:767px){
-	.myitem{
-		width:100%;
-		margin:10px;
-	}
-}
-
-@media  (min-width:991px) {
-	.myitem{
-		width:30%;
-		margin:10px;
-	}
 }
