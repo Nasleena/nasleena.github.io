@@ -42,7 +42,7 @@ p{
 
 
 .myhead{
-	float:right;
+	/*float:right;*/
 	font-size:medium;
 	padding:5px;
 	margin:0;
