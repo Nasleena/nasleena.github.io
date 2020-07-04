@@ -2,6 +2,6 @@
   var speakhello = {};
   var greeting = "Hello";speakhello.speak=
     function(name){
-    console.logo(greeting + name);
+    console.log(greeting + name);
   }
   window.speakhello = speakhello;})(window);
