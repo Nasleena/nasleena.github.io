@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
   allCategoriesUrl,
-  [...], // ***** <---- TODO: STEP 1: Substitute [...] ******
+  ["A", "B", "C", "CM", "CSR", "CU", "D", "DK", "DS", "F", "FR", "FY", "L", "NF", "NL", "NS", "PF", "SO", "SP", "SR", "SS", "T", "V", "VG"], // ***** <---- TODO: STEP 1: Substitute [...] ******
   true); // Explicitly setting the flag to get JSON from server processed into an object literal
 });
 // *** finish **
