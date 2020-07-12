@@ -102,7 +102,7 @@ function buildAndShowHomeHTML (categories) {
       // Pay attention to what type of data that function returns vs what the chosenCategoryShortName
       // variable's name implies it expects.
        var chosenCategoryShortName = chooseRandomCategory(categories);
-
+       console.warn(chosenCategoryShortName);
 
       // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
       // chosen category from STEP 2. Use existing insertProperty function for that purpose.
@@ -116,8 +116,8 @@ function buildAndShowHomeHTML (categories) {
       // it into the home html snippet.
       //
       var homeHtmlToInsertIntoMainPage = $dc.loadMenuItems(chosenCategoryShortName)
-
-      insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
+      console.warn(homeHtmlToInsertIntoMainPage);
+      //insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
       // Use the existing insertHtml function for that purpose. Look through this code for an example
       // of how to do that.
