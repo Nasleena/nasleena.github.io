@@ -107,7 +107,7 @@ function buildAndShowHomeHTML (categories) {
       // Look through this code for an example of how to do use the insertProperty function.
       //insertProperty (string, propName, propValue) //DONE
       var html = homeHtml;
-      html = insertProperty(html, "short_name", chosenCategoryShortName);
+      html = insertProperty(html, "chosenCategoryShortName", chosenCategoryShortName);
       console.warn(html);
       
       // WARNING! You are inserting something that will have to result in a valid Javascript
